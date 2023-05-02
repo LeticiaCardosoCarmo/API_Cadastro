@@ -1,15 +1,3 @@
-#Objetivo
-    #Criar uma API que possibilita a consulta, criação, edição e exclusão de pessoas em um banco de dados  .
-#URL base
-    #localhost
-#Endpoints
-    #Consultar -> localhost/cadastro (GET)
-    #Consultar por id -> localhost/cadastro/id (GET)
-    #Criar -> localhost/cadastro/id (POST)
-    #Editar -> localhost/cadastro/id (PUT)
-    #Excluir -> localhost/cadastro/id (DELETE)
-#Quais recursos
-    #cadastro
 
 import mysql.connector
 from flask import Flask, jsonify, request
